@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+*
+{
+	margin: 0px;
+padding: 0px;
+}
+body{height: 1280px; background-color: #ffffff;font-family: CENTURY Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size: 15px;text-align: ; margin-bottom: 5px;}
+.clearthis {margin : 0px;height : 1px;clear : both;float : none;font-size : 1px;line-height : 0px;}
+#container {margin: 0px auto;width: 1280px;}
+/* Page Header first */
+#page_header {width: 1280px;height: 200px;color: black;overflow: hidden;}
+#img {width: 300px;/*height: 200px;*/background: url('images/logos.png') no-repeat;float: left;clear: both;}
+#page_headerlinks {/*padding-right: 20px;*/padding-top: 30px;width: 550px;float: right;text-align: left;word-spacing: -2px;text-transform: uppercase;font-size: 15px;}
+#page_headerlinks ul {list-style-type: none;	}
+#page_headerlinks li {	padding: 0px 10px 0px 9px;	float: left;list-style-type: none;	}
+#page_headerlinks li.last {	padding-right: 0px;	background: none;}
+/*icon spacing with font/text*/
+i{ margin-right: 8px;}
+/*start of search function/box*/
+#header-search { padding-right: 50px;padding-top: 50px;float: right;clear: right;width: 380px; text-align: left;overflow : hidden;}
+/*#header-search form { padding-left: 3px;float: left;	position: absolute;	content: '';	border-radius: 50%;	border: 2px solid #fff;}*/
+#header-search input {  /*display input search*/ height: 50px;border: none; border-bottom: 1px solid #000000; width: 300px;}
+
+/* Main Navigation Menu */
+.page_menu {	margin-bottom: 1px;	width: 1280px;    text-transform: uppercase; }
+.menu-navigation { text-align: center;}
+.menu-navigation a {font-size: 16px;font-weight: bold;text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);margin: 0 20px auto; line-height: 2;text-transform: uppercase;text-decoration: none;}
+.menu-navigation a.selected {  /*bottom line when selected*/color: #435762; border-bottom: 2px solid #CCCCCC;padding-bottom: 6px;}
+.slicknav_menu {display:none;}
+@media (max-width: 600px) {.menu-navigation{ display:none;}
+.slicknav_menu {display:block;}}
+/*end navigation */
+
+/* Main Content Area */
+#main_content {	margin-right: 1px;width: 1280px;padding-top: 10px;}
+/* Gradient transparent - color - transparent */
+hr.style-two {    border: 0;    height: 1px;    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
+/*slider css */
+.mySlides {	display:none;	}
+/* Sub Items Descriptions */.sub_contents { /*main page*/	margin-bottom: 2px;	width: 1280px;}
+h1 {  text-align: center;  text-transform: lowercase;}
+.sub_local {   /*local artist descriptions*/  border: 1px solid #CECECE;  padding: 50px;  letter-spacing: 3px;}
+/*start of image pages*/
+* {  box-sizing: border-box;}
+.column {  float: left;  width: 33.33%;  padding: 5px;}
+/* Clearfix (clear floats) */
+.row::after {  content: "";  clear: both;  display: table;}/*end of image pages*/
+.sub_items { /*login page*/	margin-bottom: 2px;	margin-top: 5px;	width: 1280px;	text-align: justify;}
+.sub_left { /*login page*/	padding-left: 5px;	width: 620px;	float: left; margin-top:20px;}
+.sub_right { /*login page*/	padding-right: 10px; width: 620px; }
+.sub_items_header h1 { /*login page*/color: #434367;	font-size: 20px;font-weight: bold;padding-left: 20px;}
+.sub_items_text { /*login page*/	padding-left: 20px;	float: left;	clear: left;	width: 620px;}
+.btn {	padding: 10px;	font-size: 15px;	color:  #D6AD60;	background: #122620;	border: none;	border-radius: 5px;}
+/* Page Footer */
+
+/* Credit Card */
+
+.credit-card {
+  width            : 360px;
+  height           : 400px;
+  margin           : 60px auto 0;
+  border           : 1px solid #ddd;
+  border-radius    : 6px;
+  background-color : #fff;
+  box-shadow       : 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+
+.form-header {
+  height        : 60px;
+  padding       : 20px 30px 0;
+  border-bottom : 1px solid #E1E8EE;
+}
+
+.form-body {
+  height  : 340px;
+  padding : 30px 30px 20px;
+}
+
+/* Title */
+
+.title {
+  margin    : 0;
+  color     : #5e6977;
+  font-size : 18px;
+}
+
+/* Common */
+
+.card-number,
+.cvv-input input,
+.month select,
+.paypal-btn,
+.proceed-btn,
+.year select {
+  height : 42px;
+}
+
+.card-number,
+.month select,
+.year select {
+  font-size   : 14px;
+  font-weight : 100;
+  line-height : 14px;
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+  color   : #86939e;
+  opacity : .7;
+}
+
+/* Card Number */
+
+.card-number {
+  width         : 100%;
+  margin-bottom : 20px;
+  padding-left  : 20px;
+  border        : 2px solid #e1e8ee;
+  border-radius : 6px;
+}
+
+/* Date Field */
+
+.month select,
+.year select {
+  -moz-appearance     : none;
+  -webkit-appearance  : none;
+  width               : 145px;
+  margin-bottom       : 20px;
+  padding-left        : 20px;
+  border              : 2px solid #e1e8ee;
+  border-radius       : 6px;
+  background          : url('caret.png') no-repeat;
+  background-position : 85% 50%;
+}
+
+.month select {
+  float : left;
+}
+
+.year select {
+  float : right;
+}
+
+/* Card Verification Field */
+
+.cvv-input input {
+  width         : 145px;
+  float         : left;
+  padding-left  : 20px;
+  border        : 2px solid #e1e8ee;
+  border-radius : 6px;
+  background    : #fff;
+}
+
+.cvv-details {
+  float         : right;
+  margin-bottom : 20px;
+  font-size     : 12px;
+  font-weight   : 300;
+  line-height   : 16px;
+}
+
+.cvv-details p {
+  margin-top : 6px;
+}
+
+/* Buttons Section */
+
+.paypal-btn,
+.proceed-btn {
+  cursor: pointer;
+  width         : 100%;
+  border-color  : transparent;
+  border-radius : 6px;
+  font-size     : 16px;
+}
+
+.proceed-btn {
+  margin-bottom : 10px;
+  background    : #7dc855;
+}
+
+.paypal-btn a,
+.proceed-btn a {
+  text-decoration : none;
+  cursor          : pointer;
+}
+
+.proceed-btn a {
+  color : #fff;
+}
+
+.paypal-btn a {
+  color : rgba(242, 242, 242, 0.7);
+}
+
+.paypal-btn {
+  padding-right : 95px;
+  background    : url('paypal-logo.svg') no-repeat 65% 56% #009cde;
+}

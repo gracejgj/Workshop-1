@@ -1,0 +1,379 @@
+* { padding: 0; margin: 0; }
+
+body { font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+#wrapper { 
+ margin: 0 auto;
+ width: 90%;
+}
+#header {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 45px;
+ margin: 10px 0px 5px 0px;
+
+}
+#navigation {
+ width: 100%; padding: 10px; border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px; color: #F8EFE4;
+ float:left; background-color:#282120; font-size: 20px; line-height:normal;
+	
+}
+#content { 
+width: 100%;
+color: #333;
+border: 1px solid #ccc;
+margin: 0px 0px 5px 0px;
+margin-top: 50px;
+padding: 10px;
+height:auto;
+min-height:30px;
+}
+
+#footer { 
+ width: 100%; color: #F8EFE4;
+border: 1px solid #ccc;
+ background-color:#282120; margin: 0px 0px 10px 0px; padding: 10px;
+}
+
+.logout {
+   position:fixed;
+   right:110px;
+}
+
+.form-search{
+    margin: 0 auto;
+    text-align: center;
+    font: bold 13px sans-serif;
+    max-width: 350px;
+    float: left;
+}
+
+.form-search input{
+    width: 250px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:  #ffffff;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 15px 14px 40px;
+    border: 1px solid #b6c3cd;;
+    border-right: 0;
+    color:#4E565C;
+    outline: none;
+}
+
+.form-search button{
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color:  #6caee0;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    padding: 15px 22px;
+    margin-left: -4px;
+    border: none;
+    outline: none;
+}
+
+.form-search i{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 16px;
+    color: #80A3BD;
+}
+
+/* Placeholder color */
+
+.form-search input::-webkit-input-placeholder {
+    color:  #879097;
+}
+
+.form-search input::-moz-placeholder {
+    color:  #879097;
+    opacity: 1;
+}
+
+.form-search input:-ms-input-placeholder {
+    color:  #879097;
+}
+
+
+#navigation ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#navigation li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#navigation a {
+	float:left;
+	margin:0;
+	padding:0 0 5px 5px;
+	text-decoration:none;
+	}
+
+#navigation a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color: #F8EFE4;
+	
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#navigation a span {float:none;}
+
+/* End IE5-Mac hack */
+#navigation a:hover span {
+	color:#E6C2BF;
+	}
+
+#navigation a:hover {
+	background-position:0% -42px;
+	}
+
+#navigation a:hover span {
+	background-position:100% -42px;
+	}
+	
+table { margin-top: 25px; margin-bottom: 25px; border-collapse: collapse; width: 100%;}
+
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd;}
+tr:hover {background-color:#f5f5f5;}
+
+.form-login{
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 20px;
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-email{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 130px;
+    text-align: center;
+}
+
+.form-email .form-background{
+	margin-top:100px;
+    width: 570px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 60px 80px;
+  
+}
+
+.form-email .form-row{
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.form-email .form-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form-email h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 30px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin:0;
+}
+
+.form-email .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    width: 125px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.form-email input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 230px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-email button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 15px 35px;
+    border: 0;
+    margin: 55px auto 0;
+    cursor: pointer;
+}
+
+/*login css*/
+
+.form-login{ max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-email{ position: relative; display: inline-block; vertical-align: top; margin-right: 130px; text-align: center;}
+
+.form-email .form-background{
+    width: 570px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 60px 80px;
+    margin-bottom: 32px;
+}
+
+.form-email .form-row{text-align: left; margin-bottom: 23px;}
+.form-email .form-title{ text-align: center;margin-bottom: 60px;}
+
+.form-email h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 30px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin:0;
+}
+
+.form-email .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    width: 125px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.form-email input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 230px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-email button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 15px 35px;
+    border: 0;
+    margin: 55px auto 0;
+    cursor: pointer;
+}
+
+.form-basic{
+    max-width: 640px;
+    margin: 0 auto; /*center)*/
+	margin-top: 25px;
+    padding: 55px;
+    box-sizing: border-box;font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-basic .form-row{ text-align: left; margin-bottom: 22px;}
+.form-basic .form-title-row{text-align: center;margin-bottom: 55px;}
+
+.form-basic h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+
+.form-basic .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.form-basic input{ color:  #5f5f5f; box-sizing: border-box; width: 240px;padding: 12px;border: 1px solid #dbdbdb;}
+.form-basic button{ display: block; border-radius: 2px; background-color:  #6caee0; color: #ffffff; font-weight: bold; box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08); padding: 14px 22px; border: 0; margin: 40px 183px 0;}
+
+/*search and add product*/
+#myInput { /*search box*/
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 0px 12px 0px;
+  border: 1px solid #ddd;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#myTable { /*table id*/
+  border-collapse: collapse;
+  width: 100%;
+}
+
+input[type=text], [type=number], [type=password]{
+    border: none;
+    border-bottom: 2px solid #000000;
+	width: 40%;
+	padding: 20px 10px; line-height: 25px;
+}
+
+select [type=text], [type=number], [type=password]{
+    border: none;
+    border-bottom: 2px solid #000000;
+	width: 40%;
+	padding: 20px 10px; line-height: 25px;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
